@@ -157,3 +157,4 @@ C:\Users\mohmu\visual\repos\ECommerceAPI\ECommerceAPI\obj\Debug\net9.0\refint\EC
 C:\Users\mohmu\visual\repos\ECommerceAPI\ECommerceAPI\obj\Debug\net9.0\ECommerceAPI.pdb
 C:\Users\mohmu\visual\repos\ECommerceAPI\ECommerceAPI\obj\Debug\net9.0\ECommerceAPI.genruntimeconfig.cache
 C:\Users\mohmu\visual\repos\ECommerceAPI\ECommerceAPI\obj\Debug\net9.0\ref\ECommerceAPI.dll
+C:\Users\mohmu\visual\repos\ECommerceAPI\ECommerceAPI\obj\Debug\net9.0\ECommerceAPI.sourcelink.json
