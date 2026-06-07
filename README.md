@@ -1,38 +1,61 @@
-#  E-Commerce API
+# 🛒 E-Commerce REST API
 
 A production-ready RESTful API built with **ASP.NET Core 9** and **Entity Framework Core**, featuring JWT authentication, role-based authorization, and a full e-commerce flow.
 
-##  Features
+🌐 **Live API:** https://ecommerceap.up.railway.app/swagger
 
-- **JWT Authentication** — register, login, token-based auth
-- **Role-based Authorization** — Admin and User roles
-- **Product Management** — full CRUD with category support
-- **Order System** — place orders, automatic stock management
-- **Admin Dashboard** — real-time stats, top products, recent orders
-- **Input Validation** — data annotations on all DTOs
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-9.0-blue)
+![EF Core](https://img.shields.io/badge/EF%20Core-9.0-purple)
+![Docker](https://img.shields.io/badge/Docker-deployed-2496ED)
+![Railway](https://img.shields.io/badge/Railway-live-success)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+
+---
+
+## ✨ Features
+
+- **JWT Authentication** — register, login, token-based auth with SHA-256 password hashing
+- **Role-based Authorization** — Admin and User roles with protected endpoints
+- **Product Management** — full CRUD with category support (Admin only)
+- **Order System** — place orders with automatic stock management
+- **Admin Dashboard** — real-time stats: total revenue, top products, recent orders
+- **Input Validation** — Data Annotations on all DTOs
 - **Error Handling** — global middleware returning clean JSON errors
-- **Swagger UI** — interactive API documentation
+- **Swagger UI** — interactive API documentation with Bearer token support
+- **Docker Deployment** — containerized and deployed to Railway cloud
 
-##  Architecture
+---
+
+## 🏗️ Architecture
 
 ```
 Controller → Service → Repository → Database
 ```
 
-Clean separation of concerns — controllers handle HTTP, services handle business logic, repositories handle data access.
+Clean separation of concerns:
+- **Controllers** — handle HTTP only, zero business logic
+- **Services** — business logic and DTO mapping
+- **Repositories** — database access only
+- **Middleware** — cross-cutting concerns (error handling)
 
-##  Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 | Layer | Technology |
 |---|---|
 | Framework | ASP.NET Core 9 |
 | ORM | Entity Framework Core 9 |
-| Database | SQL Server |
-| Auth | JWT Bearer Tokens |
-| Docs | Swagger / Swashbuckle |
+| Database | PostgreSQL (Railway) |
+| Authentication | JWT Bearer Tokens |
+| Mapping | AutoMapper |
+| Documentation | Swagger / Swashbuckle |
+| Deployment | Docker + Railway |
 | Language | C# |
 
-##  Database Schema
+---
+
+## 📦 Database Schema
 
 ```
 Users ──────────────── Orders
@@ -42,7 +65,9 @@ Users ──────────────── Orders
      places         OrderItems ──── Products ──── Categories
 ```
 
-##  API Endpoints
+---
+
+## 🔑 API Endpoints
 
 ### Auth
 | Method | Endpoint | Description | Auth |
@@ -78,11 +103,13 @@ Users ──────────────── Orders
 |---|---|---|---|
 | GET | /api/dashboard | Admin stats | Admin |
 
-## ⚙️ Setup & Run
+---
+
+## ⚙️ Setup & Run Locally
 
 ### Prerequisites
 - .NET 9 SDK
-- SQL Server
+- PostgreSQL
 - Visual Studio 2022
 
 ### Steps
@@ -96,28 +123,48 @@ cd ECommerceAPI
 2. Update connection string in `appsettings.json`
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=ECommerceDB;Integrated Security=True;TrustServerCertificate=True;Encrypt=False;"
+  "DefaultConnection": "Host=localhost;Port=5432;Database=ECommerceDB;Username=postgres;Password=yourpassword"
 }
 ```
 
-3. Run migrations
+3. Update JWT settings
+```json
+"JwtSettings": {
+  "SecretKey": "YourSuperSecretKeyHere",
+  "Issuer": "ECommerceAPI",
+  "Audience": "ECommerceAPIUsers",
+  "ExpiryHours": 1
+}
+```
+
+4. Run migrations
 ```bash
 dotnet ef database update
 ```
 
-4. Run the project
+5. Run the project
 ```bash
 dotnet run
 ```
 
-5. Open Swagger at `http://localhost:5253/swagger`
+6. Open Swagger at `http://localhost:5000/swagger`
 
-##  Authentication Flow
+---
+
+## 🔐 Authentication Flow
 
 1. Register → `POST /api/auth/register`
 2. Login → `POST /api/auth/login` → copy the token
 3. Click **Authorize** in Swagger → enter `Bearer {token}`
 4. All protected endpoints are now accessible
+
+### Make yourself Admin
+After registering, update your role in the database:
+```sql
+UPDATE "Users" SET "Role" = 'Admin' WHERE "Email" = 'your@email.com';
+```
+
+---
 
 ## 📊 Dashboard Response Example
 
@@ -134,3 +181,4 @@ dotnet run
     { "id": 25, "totalAmount": 999.99, "createdAt": "2026-05-31", "userEmail": "user@test.com" }
   ]
 }
+```
