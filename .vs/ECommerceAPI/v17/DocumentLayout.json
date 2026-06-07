@@ -1,57 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\mohmu\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D73E6D57-3D03-485D-BF70-62CB190C4BD0}|..\\source\\repos\\ECommerceAPI.Tests\\ECommerceAPI.Tests\\ECommerceAPI.Tests.csproj|c:\\users\\mohmu\\source\\repos\\ecommerceapi.tests\\ecommerceapi.tests\\categoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\visual\\repos\\ecommerceapi\\ecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|c:\\users\\mohmu\\ecommerceapi\\ecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84772A41-9434-4F3A-873B-D88C73B5732C}|ECommerceAPI\\ECommerceAPI.csproj|solutionrelative:ecommerceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,17 +69,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Program.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Program.cs",
               "RelativeToolTip": "ECommerceAPI\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwE8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwEwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T21:39:50.968Z",
               "IsPinned": true,
@@ -80,24 +87,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ECommerceAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\appsettings.json",
-              "RelativeToolTip": "ECommerceAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-05T13:59:42.404Z",
+              "DocumentIndex": 0,
+              "Title": "CategoryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\source\\repos\\ECommerceAPI.Tests\\ECommerceAPI.Tests\\CategoryServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\source\\repos\\ECommerceAPI.Tests\\ECommerceAPI.Tests\\CategoryServiceTests.cs",
+              "ToolTip": "C:\\Users\\mohmu\\source\\repos\\ECommerceAPI.Tests\\ECommerceAPI.Tests\\CategoryServiceTests.cs",
+              "RelativeToolTip": "..\\source\\repos\\ECommerceAPI.Tests\\ECommerceAPI.Tests\\CategoryServiceTests.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T15:35:56.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ECommerceAPI",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+              "RelativeDocumentMoniker": "ECommerceAPI\\ECommerceAPI.csproj",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+              "RelativeToolTip": "ECommerceAPI\\ECommerceAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-07T15:28:37.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ECommerceAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\appsettings.json",
+              "RelativeToolTip": "ECommerceAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-05T13:59:42.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Dockerfile",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Dockerfile",
               "RelativeDocumentMoniker": "ECommerceAPI\\Dockerfile",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Dockerfile",
               "RelativeToolTip": "ECommerceAPI\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -105,11 +137,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "ECommerceAPI\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,11 +149,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\DTOs\\OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\DTOs\\OrderDto.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\DTOs\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\DTOs\\OrderDto.cs",
               "RelativeToolTip": "ECommerceAPI\\DTOs\\OrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,11 +161,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
               "RelativeToolTip": "ECommerceAPI\\Middleware\\ErrorHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -141,11 +173,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "ECommerceAPI\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -153,11 +185,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ECommerceAPI\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAkwCEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,11 +197,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "ECommerceAPI\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,11 +209,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ECommerceAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -189,11 +221,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Services\\OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Services\\OrderService.cs",
               "RelativeToolTip": "ECommerceAPI\\Services\\OrderService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAApwBoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,11 +233,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Services\\ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\Services\\ProductService.cs",
               "RelativeToolTip": "ECommerceAPI\\Services\\ProductService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAIwFMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -213,11 +245,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\DTOs\\ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "ECommerceAPI\\DTOs\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\DTOs\\ProductDto.cs",
               "RelativeToolTip": "ECommerceAPI\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

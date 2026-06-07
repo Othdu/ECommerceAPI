@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {}
+    "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {
+    "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
         "projectName": "ECommerceAPI",
-        "projectPath": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
+        "projectPath": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\ECommerceAPI.csproj",
         "packagesPath": "C:\\Users\\mohmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohmu\\visual\\repos\\ECommerceAPI\\ECommerceAPI\\obj\\",
+        "outputPath": "C:\\Users\\mohmu\\ECommerceAPI\\ECommerceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -92,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
