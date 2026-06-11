@@ -17,9 +17,9 @@ namespace ECommerceAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetAll()
+        public ActionResult GetAll([FromQuery] PaginationParams p)
         {
-            return Ok(_productService.GetAll());
+            return Ok(_productService.GetAll(p));
         }
 
         [HttpGet("{id}")]

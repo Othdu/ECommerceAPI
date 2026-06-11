@@ -13,20 +13,53 @@ namespace ECommerceAPI.Services
             _db = db;
         }
 
-        public List<ProductResponseDto> GetAll()
+        public PagedResult<ProductResponseDto> GetAll(PaginationParams p)
         {
-            return _db.Products
-                .Include(p => p.Category)
-                .Select(p => new ProductResponseDto
+            var query = _db.Products
+                .Include(pr => pr.Category)
+                .AsQueryable();
+
+            // Apply search
+            if (!string.IsNullOrEmpty(p.Search))
+                query = query.Where(pr => pr.Name!.Contains(p.Search));
+
+            // Apply sorting
+            query = p.SortBy?.ToLower() switch
+            {
+                "price" => p.SortDescending
+                    ? query.OrderByDescending(pr => pr.Price)
+                    : query.OrderBy(pr => pr.Price),
+                "name" => p.SortDescending
+                    ? query.OrderByDescending(pr => pr.Name)
+                    : query.OrderBy(pr => pr.Name),
+                _ => query.OrderBy(pr => pr.Id)
+            };
+
+            // Count total BEFORE pagination
+            var totalCount = query.Count();
+
+            // Apply pagination
+            var products = query
+                .Skip((p.Page - 1) * p.PageSize)
+                .Take(p.PageSize)
+                .Select(pr => new ProductResponseDto
                 {
-                    Id = p.Id,
-                    Name = p.Name,
-                    Description = p.Description,
-                    Price = p.Price,
-                    Stock = p.Stock,
-                    CategoryName = p.Category!.Name
+                    Id = pr.Id,
+                    Name = pr.Name,
+                    Description = pr.Description,
+                    Price = pr.Price,
+                    Stock = pr.Stock,
+                    CategoryName = pr.Category!.Name
                 })
                 .ToList();
+
+            return new PagedResult<ProductResponseDto>
+            {
+                Data = products,
+                Page = p.Page,
+                PageSize = p.PageSize,
+                TotalCount = totalCount
+            };
         }
 
         public ProductResponseDto? GetById(int id)
